@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("rand.jpg");
+    background-size: cover;
+    margin: 0;
+}
+body img{
+    display:flex;
+}
+body, html {
+    height: 100%;
+}
+.kastid{
+    display:flex;
+    justify-content: center;
+}
+.container{
+    max-width: 500px;
+    text-align: left;
+    padding: 2.5rem;
+    background-color: #777;
+    border-radius: 15px;
+    margin: 2rem;
+}
+.second-container {
+    width:25%;
+    height:50%;
+    text-align: left;
+    padding: 2.5rem;
+    background-color: #777;
+    border-radius: 15px;
+    margin: 2rem;
+}
+.container{
+    text-align:center;
+}
+.second-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.tekst{
+    align-self:flex-start;
+}
+h1 {
+    font-size: 5rem;
+    display: block;
+    margin:5rem;
+    color: #180909;
+}
+h2{
+    font-size:1.5rem;
+    display:block;
+    padding: 0 1rem 1rem 1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ilmainformatsioon {
+    margin-top: 20px;
+}
+
+.viiePäevaIlm {
+    background-color:#777777;
+    border:#ffffff 1px solid;
+    display:flex;
+    justify-content:space-around;
+    padding:0.5rem;
+    text-align:center;
+    font-weight: bold;
+    font-size:1.25rem;
+}
+.ilmainformatsioon{
+    font-weight: bold;
+    font-size:1.25rem;
+}
