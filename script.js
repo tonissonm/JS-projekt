@@ -49,7 +49,7 @@ function displayFiveDayForecast(forecastList) {
         if (!uniqueDays.includes(day)) {
             uniqueDays.push(day);
 
-            if (nextThreeDaysCount >= 1) {
+            if (nextFiveDaysCount >= 1) {
                 const temperature = Math.round(forecast.main.temp);
 
                 const dayElement = document.createElement('div');
@@ -59,7 +59,7 @@ function displayFiveDayForecast(forecastList) {
                 viiePaevaIlmEl.appendChild(dayElement);
             }
 
-            nextThreeDaysCount++;
+            nextFiveDaysCount++;
         }
     });
 }
