@@ -40,7 +40,7 @@ function displayFiveDayForecast(forecastList) {
     viiePaevaIlmEl.innerHTML = '';
 
     const uniqueDays = [];
-    let nextThreeDaysCount = 0;
+    let nextFiveDaysCount = 0;
 
     forecastList.forEach(forecast => {
         const dateTime = new Date(forecast.dt * 1000);
